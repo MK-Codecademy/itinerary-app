@@ -19,7 +19,6 @@ $ client
 │   └── Components
 │
 │   # Misc.
-├── .gitignore
 ├── package.json
 ├── README.md
 └── tsconfig.json
