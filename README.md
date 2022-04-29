@@ -1,5 +1,9 @@
 # MK Codecademy - Itinerary Builder
 
+A web-based app for keeping track of your independent travel itineraries. 
+
+Rough wireframes can be found on Exaclidraw: [(https://excalidraw.com/#json=Rdb4bcjoVysAtMFAvW4rW,DdS62Ucm0T2sq_RzXoMOsw](https://excalidraw.com/#json=Rdb4bcjoVysAtMFAvW4rW,DdS62Ucm0T2sq_RzXoMOsw)
+
 ## Contributing
 
 This itinerary builder is a collaborative project. If you want to get involved, join our [Discord](https://discord.gg/nzSQnqMj). 
