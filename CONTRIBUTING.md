@@ -6,6 +6,13 @@ Below are some guidelines on how we'd like you to contribute to keep things neat
 
 However, we appreciate that we are all here to learn, so don't worry too much about it if you forget to follow the guidelines at some point or make a mess - it's easily done when learning Git. 
 
+## Getting started
+
+The best way to contributing is to be given permissions to the repo, giving you full autonomy. If you don't currently have permissions, let one of us know so we can add you. 
+
+We recommend cloning the project rather than forking it, but if you prefer to fork feel free!
+
+Once you have a local copy of the project, move into the `dev` branch (`git checkout dev`) and install dependencies (e.g. `npm install`).
 
 ## Tasks
 
@@ -22,7 +29,9 @@ There are two main branches in this project - `master` and `dev`.
 - `master` is intended to be the current representation of the live version of the app (when we get round to deploying it)
 - `dev` is current development version of app, which you will branch off of
 
-No work should be done in/pushed directly to neither the `master` nor `dev` branches. When you want to work on something, you will do so in a new branch, that has branched off of `dev`. An example of how that might go is below: 
+No work should be done in/pushed directly to either the `master` or `dev` branches. When you want to work on something, you will do so in a new branch, that has branched off of `dev`. Try not to branch off `master` because this won't have the latest version of changes that people are currently working on.  
+
+An example of how this all might go is below: 
 
 ```
 git checkout dev // move into dev branch
