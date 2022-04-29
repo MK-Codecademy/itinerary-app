@@ -6,6 +6,8 @@ This itinerary builder is a collaborative project. If you want to get involved, 
 
 The current status of tasks can be found on the [project board](https://github.com/MK-Codecademy/itinerary-app/projects/1). Feel free to assign yourself and get involved. 
 
+For guidelines on how to start contributing, please read the [CONTRIBUTING.md](https://github.com/MK-Codecademy/itinerary-app/blob/master/CONTRIBUTING.md) file. 
+
 ## Stack
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
