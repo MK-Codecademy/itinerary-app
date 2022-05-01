@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* #region main navbar */
+header {
+  @apply text-white w-full flex justify-between bg-purple-900 py-4 px-10;
+}
+
+.logo-placeholder {
+  @apply flex justify-center items-center bg-white text-purple-900 font-bold;
+  border: solid 2px white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.top-nav {
+  @apply flex justify-between items-center;
+  height: 40px;
+  width: 150px;
+}
+/* #endregion main navbar */

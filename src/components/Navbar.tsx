@@ -1,11 +1,15 @@
 import React from "react";
 
 function Navbar() {
-  return <div className="border border-solid h-20 w-full">
-    <div>Logo</div>
-    <button>Log In</button>
-    <button>Sign Up</button>
-  </div>;
+  return (
+    <header>
+      <div className="logo-placeholder">Logo</div>
+      <nav className="top-nav">
+        <button>Log In</button>
+        <button>Sign Up</button>
+      </nav>
+    </header>
+  );
 }
 
 export default Navbar;
