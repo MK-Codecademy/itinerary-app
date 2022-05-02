@@ -3,9 +3,42 @@
 @tailwind utilities;
 
 body {
+  @apply bg-gray-300;
   padding: 0;
   margin: 0;
 }
+
+/* #region global styles */
+.card {
+  @apply bg-white rounded-3xl flex flex-col items-center drop-shadow-xl mx-auto my-20 overflow-hidden;
+}
+
+.tabs {
+  @apply grid grid-cols-2 w-full bg-purple-500 text-white text-center;
+}
+
+.tabs p {
+  @apply py-2;
+}
+
+.tabs .selected {
+  @apply bg-white text-purple-500 font-bold border-purple-900 border-2 border-b-0 rounded-t-3xl;
+}
+
+.tabs :not(.selected) {
+  @apply border-purple-900 border-b-2;
+}
+
+.underline-input {
+  @apply border-b-2 border-black;
+}
+
+.underline-input:focus {
+  @apply border-purple-900;
+  outline: none;
+}
+/* #endregion global styles */
+
 
 /* #region main navbar */
 header {
