@@ -26,3 +26,43 @@ header {
   width: 150px;
 }
 /* #endregion main navbar */
+
+
+/* #component button */
+/* default button */
+.btn {
+	@apply w-fit h-10 px-3.5 py-1 m-1 items-center font-semibold hover:font-bold rounded-full shadow-md;
+}
+
+/* primary button */
+.btn-white-filled {
+	@apply bg-white text-purple-900 hover:bg-white/20 hover:text-white;
+}
+.btn-white-outline {
+	@apply bg-transparent text-white border-white border-2 border-solid hover:text-purple-900 hover:bg-white;
+}
+
+/* colored button - purple > Success */
+.btn-purple-filled {
+	@apply bg-purple-700 text-white hover:text-white hover:bg-purple-900;
+}
+.btn-purple-outline {
+	@apply bg-white text-purple-700 border-purple-700 border-2 border-solid hover:text-white hover:bg-purple-700;
+}
+
+/* colored button - yellow > Warning */
+.btn-yellow-filled {
+	@apply bg-yellow-500 text-white hover:bg-yellow-600;
+}
+.btn-yellow-outline {
+	@apply bg-white text-yellow-500 border-yellow-500 border-2 border-solid hover:text-white hover:bg-yellow-500;
+}
+
+/* colored button - red > Danger */
+.btn-red-filled {
+	@apply bg-red-600 text-white hover:bg-red-800;
+}
+.btn-red-outline {
+	@apply bg-white text-red-600 border-red-600 border-2 border-solid hover:text-white hover:bg-red-600;
+}
+/* #end component button */
