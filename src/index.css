@@ -10,22 +10,22 @@ body {
 
 /* #region global styles */
 .card {
-  @apply bg-white rounded-3xl flex flex-col items-center drop-shadow-xl mx-auto my-20 overflow-hidden;
+  @apply bg-white rounded-3xl flex flex-col items-center drop-shadow-xl mx-auto my-20 overflow-hidden h-80;
 }
 
-.tabs {
+.tab-wrapper {
   @apply grid grid-cols-2 w-full bg-purple-500 text-white text-center;
 }
 
-.tabs p {
+.tab {
   @apply py-2;
 }
 
-.tabs .selected {
+.tab.selected {
   @apply bg-white text-purple-500 font-bold border-purple-900 border-2 border-b-0 rounded-t-3xl;
 }
 
-.tabs :not(.selected) {
+.tab:not(.selected) {
   @apply border-purple-900 border-b-2;
 }
 
