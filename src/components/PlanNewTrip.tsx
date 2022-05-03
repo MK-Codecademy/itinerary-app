@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "./Button"
 
 function PlanNewTrip() {
   const [selectedTab, setSelectedTab] = useState("knownDates")
@@ -59,7 +60,7 @@ function PlanNewTrip() {
         </form>
         )}
 
-        <button className="mt-5 rounded-lg bg-purple-700 text-white py-2 px-6 w-fit">Start Planning</button>
+        <Button text="Start Planning" color="purple" filled />
       </div>
     </div>
   );
