@@ -37,6 +37,22 @@ body {
   @apply border-purple-900;
   outline: none;
 }
+
+.card-content {
+  @apply flex flex-col justify-between w-full h-full rounded-b-3xl items-center py-7 border-purple-900 border-2 border-t-0;
+}
+
+.card-header {
+  @apply text-xl mb-5;
+}
+
+.card-form-wrapper {
+  @apply flex flex-col justify-center items-center h-24;
+}
+
+.form-item {
+  @apply py-1;
+}
 /* #endregion global styles */
 
 

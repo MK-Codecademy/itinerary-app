@@ -27,31 +27,31 @@ function PlanNewTrip() {
           I don't know my dates
         </div>
       </div>
-      <div className="flex flex-col justify-between w-full h-full rounded-b-3xl items-center py-7 border-purple-900 border-2 border-t-0">
-        <h3 className="text-xl mb-5">Plan your new trip</h3>
+      <div className="card-content">
+        <h3 className="card-header">Plan your new trip</h3>
 
         {isSelected('knownDates') ? (
-        <form className="flex flex-col justify-center items-center h-24">
-          <div className="py-1">
+        <form className="card-form-wrapper">
+          <div className="form-item">
             <label htmlFor="">Where To: </label>
             <input id="" type="text" className="underline-input" placeholder="Enter your destination"/>
           </div>
-          <div className="py-1">
+          <div className="form-item">
             <label htmlFor="">Start Date: </label>
             <input id="" type="date" className="underline-input" />
           </div>
-          <div className="py-1">
+          <div className="form-item">
             <label htmlFor="">End Date: </label>
             <input id="" type="date" className="underline-input" />
           </div>
         </form>
         ) : (
-        <form className="flex flex-col justify-center items-center h-24">
-          <div className="py-1">
+        <form className="card-form-wrapper">
+          <div className="form-item">
             <label htmlFor="">Where To: </label>
             <input id="" type="text" className="underline-input" placeholder="Enter your destination"/>
           </div>
-          <div className="py-1">
+          <div className="form-item">
             <label htmlFor="">Duration: </label>
             <input id="" type="number" className="underline-input" />
             <label htmlFor="">days </label>
