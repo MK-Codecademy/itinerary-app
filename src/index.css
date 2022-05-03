@@ -38,7 +38,7 @@ header {
 .btn-white-filled {
 	@apply bg-white text-purple-900 hover:bg-white/20 hover:text-white;
 }
-.btn-transparent-outline {
+.btn-white-outline {
 	@apply bg-transparent text-white border-white border-2 border-solid hover:text-purple-900 hover:bg-white;
 }
 

@@ -1,15 +1,15 @@
 interface button {
   text: string;
-  className: string;
+  outline: string;
+  color: string;
 }
 
-const Button = (props: button) => {
+const Button = ({ text, outline, color }: button) => {
+
   return (
-    <>
-      <button className={props.className}>
-        {props.text}
+      <button className={`btn btn-${color}-${outline}`}>
+        {text}
       </button>
-    </>
   );
 };
 
