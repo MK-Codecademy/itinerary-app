@@ -5,7 +5,7 @@ interface button {
 }
 
 // <Button text="Cancel" color="yellow" filled />
-// or 
+// or
 // <Button text="Cancel" color="yellow" filled="true" />
 // output : yellow filled button
 
@@ -14,9 +14,9 @@ interface button {
 
 const Button = ({ text, color, filled }: button) => {
   return (
-      <button className={`btn btn-${color}-${filled ? "filled" : "outline"}`}>
-        {text}
-      </button>
+    <button className={`btn btn-${color}-${filled ? "filled" : "outline"}`}>
+      {text}
+    </button>
   );
 };
 
