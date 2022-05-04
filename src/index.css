@@ -10,7 +10,7 @@ body {
 
 /* #region global styles */
 .card {
-  @apply bg-white rounded-3xl flex flex-col items-center drop-shadow-xl mx-auto my-20 overflow-hidden h-80;
+  @apply bg-white rounded-3xl flex flex-col items-center drop-shadow-xl mx-auto overflow-hidden h-80;
 }
 
 .tab-wrapper {
@@ -115,3 +115,13 @@ header {
 	@apply bg-white text-red-600 border-red-600 border-2 border-solid hover:text-white hover:bg-red-600;
 }
 /* #end component button */
+
+/* #region landing page */
+.landing-page {
+  @apply h-full
+}
+
+.landing-page .card-grid {
+  @apply grid grid-cols-2 gap-x-16 mx-auto w-fit pt-16;
+}
+/* #endregion landing page */
