@@ -17,6 +17,10 @@ body {
   @apply grid grid-cols-2 w-full bg-purple-500 text-white text-center;
 }
 
+.tab-wrapper + .card-content {
+  @apply border-t-0 rounded-none;
+}
+
 .tab {
   @apply py-2;
 }
@@ -39,7 +43,7 @@ body {
 }
 
 .card-content {
-  @apply flex flex-col justify-between w-full h-full rounded-b-3xl items-center py-7 border-purple-900 border-2 border-t-0;
+  @apply flex flex-col justify-between w-full h-full rounded-3xl items-center py-7 border-purple-900 border-2;
 }
 
 .card-header {
