@@ -18,7 +18,7 @@ body {
 }
 
 .tab-wrapper + .card-content {
-  @apply border-t-0 rounded-none;
+  @apply border-t-0 rounded-t-none;
 }
 
 .tab {
