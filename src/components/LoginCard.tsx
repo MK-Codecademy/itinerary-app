@@ -7,7 +7,7 @@ const LoginCard = () => {
       <div className="card-content ">
         <h3 className="card-header pt-10">Check out your plan</h3>
         <div className="pb-10">
-          <Button text="Login" color="purple" filled />
+          <Button text="Log in" color="purple" filled />
         </div>
       </div>
     </div>
